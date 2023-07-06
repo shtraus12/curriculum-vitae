@@ -1,0 +1,32 @@
+{
+  "avatarPath": "path",
+  "fullName": "Anton Chernykh",
+  "position": "IT Project Manager",
+  "contactInformation": [
+    "E-mail: a.chernykh@pm.me",
+    "LinkedIn: linkedin.com/in/shtraus12",
+    "Telegram: @shtraus12",
+    "Location: Kazakhstan (both relocation and remote work are considered)"
+  ],
+  "profile": "Highly motivated IT Project Manager with 6 years professional education and more than 2 years of experience in successfully delivering EdTech, VoIP, FinTech, Medical and Sport projects, managing fully remote teams, publishing mobile apps to stores and more.",
+  "workExperinece": [
+    {
+      "dateFrom": "May 2021",
+      "dateTo": "May 2021",
+      "duration": "2 years",
+      "position": "Project Manager",
+      "onSiteRemote": "remote",
+      "companyName": "2People IT",
+      "description": "description"
+    },
+    {
+      "dateFrom": "May 2021",
+      "dateTo": "May 2021",
+      "duration": "2 years",
+      "position": "Project Manager",
+      "onSiteRemote": "remote",
+      "companyName": "2People IT",
+      "description": "description"
+    }
+  ]
+}

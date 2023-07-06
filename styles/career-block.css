@@ -1,0 +1,35 @@
+.career-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.career-block .block-header {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--h2-font-size);
+  font-weight: 700;
+}
+
+.career-block .work-experience {
+}
+
+.work-experience .dates {
+}
+
+.work-experience .rest {
+}
+
+.work-experience .position {
+}
+
+.work-experience .on-site-remote-company-name {
+}
+
+.work-experience .onSiteRemote {
+}
+
+.work-experience .companyName {
+}
+
+.work-experience .description {
+}
