@@ -6,17 +6,7 @@ export class TextBlock {
 
     textBlock.appendChild(new DivObj('block-header', blockHeader))
 
-    textBlock.appendChild(Object.assign(document.createElement('div'), {
-      className: 'block-body',
-      innerHTML: blockText
-    }))
-
-
-    const elementInitedInThisFile = Object.assign(document.createElement('div'), {
-      className: 'div-class'
-    })
-
-    const elementCreatedByExternalClass = new DivObj('div-class')
+    textBlock.appendChild(new DivObj('block-body', blockText))
 
 
     return textBlock

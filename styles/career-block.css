@@ -11,24 +11,54 @@
 }
 
 .career-block .work-experience {
+  width: 100%;
+  display: inline-flex;
 }
 
-.work-experience .dates {
+.work-experience .dates-duration {
+  font-family: 'Hind';
+  font-size: var(--samller-font-size);
+  font-weight: 300;
+  color: var(--grey);
+
+  width: 25%;
 }
 
 .work-experience .rest {
+  font-family: 'Hind';
+  font-size: var(--normal-font-size);
+  font-weight: 300;
+  color: var(--grey);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 75%;
 }
 
 .work-experience .position {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+  color: var(--black);
 }
 
 .work-experience .on-site-remote-company-name {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
 }
 
-.work-experience .onSiteRemote {
+.work-experience .on-site-remote {
+  line-height: 1.6rem;
 }
 
-.work-experience .companyName {
+.work-experience .company-name {
+  line-height: 1.6rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+  color: var(--black);
 }
 
 .work-experience .description {
