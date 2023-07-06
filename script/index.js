@@ -1,36 +1,35 @@
 import { TextBlock } from './blocks/TextBlock.js'
 import { Header } from './Header.js'
-import { WorkExperience } from './blocks/WorkExperienceBlock.js'
-
-let headerData
-let header
-let personData
+import { Career } from './blocks/Career.js'
 
 fetch('./data/cv.json')
   .then((response) => response.json())
   .then(json => {
-    personData = json
-    cvBuilder()
+    const cvData = json
+    cvBuilder(cvData)
   })
   .catch((e) => {
     console.log(e)
   })
 
-function cvBuilder() {
+function cvBuilder(cvData) {
   const container = Object.assign(document.createElement('div'), {
     className: 'container'
   })
 
-  header = new Header(personData)
+  const header = new Header(cvData.avatarPath, cvData.fullName, cvData.position, cvData.contactInformation)
   container.appendChild(header)
 
-  if (personData.profile) {
+  if (cvData.profile) {
     container.appendChild(document.createElement('hr'))
-    container.appendChild(new TextBlock('Profile', personData.profile))
+    container.appendChild(new TextBlock('Profile', cvData.profile))
   }
 
+  if (cvData.career) {
+    container.appendChild(document.createElement('hr'))
+    container.appendChild(new Career(cvData.career))
+  }
 
-  container.appendChild(new WorkExperience())
 
   document.querySelector('body').appendChild(container)
 }

@@ -1,7 +1,7 @@
 import { DivObj } from "./DivObj.js"
 
 export class Header {
-  constructor(headerData = {}) {
+  constructor(avaratPath, fullName = 'Name LastName', position = 'Position', contactInformation = ['Contact']) {
 
     const header = new DivObj('header')
 
@@ -9,9 +9,9 @@ export class Header {
 
     const namePosition = new DivObj()
 
-    namePosition.appendChild(new DivObj('name', headerData.fullName))
+    namePosition.appendChild(new DivObj('name', fullName))
 
-    namePosition.appendChild(new DivObj('position', headerData.position))
+    namePosition.appendChild(new DivObj('position', position))
 
     person.appendChild(Object.assign(document.createElement('img'),
       {
@@ -19,14 +19,14 @@ export class Header {
       }))
     person.append(namePosition)
 
-    const contactInformation = new DivObj('contactInformation')
+    const contacts = new DivObj('contactInformation')
 
-    headerData.contactInformation.forEach(el => {
-      contactInformation.appendChild(new DivObj('contact', el))
+    contactInformation.forEach(el => {
+      contacts.appendChild(new DivObj('contact', el))
     })
 
     header.appendChild(person)
-    header.appendChild(contactInformation)
+    header.appendChild(contacts)
 
     return header
   }

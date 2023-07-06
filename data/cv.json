@@ -9,24 +9,22 @@
     "Location: Kazakhstan (both relocation and remote work are considered)"
   ],
   "profile": "Highly motivated IT Project Manager with 6 years professional education and more than 2 years of experience in successfully delivering EdTech, VoIP, FinTech, Medical and Sport projects, managing fully remote teams, publishing mobile apps to stores and more.",
-  "workExperinece": [
+  "career": [
     {
-      "dateFrom": "May 2021",
-      "dateTo": "May 2021",
+      "dates": "May 2021 — Present",
       "duration": "2 years",
       "position": "Project Manager",
       "onSiteRemote": "remote",
       "companyName": "2People IT",
-      "description": "description"
+      "description": "Highly motivated IT Project Manager with 6 years professional education and more than 2 years of experience in successfully delivering EdTech, VoIP, FinTech, Medical and Sport projects, managing fully remote teams, publishing mobile apps to stores and more."
     },
     {
-      "dateFrom": "May 2021",
-      "dateTo": "May 2021",
+      "dates": "May 2021 — May 2021",
       "duration": "2 years",
       "position": "Project Manager",
-      "onSiteRemote": "remote",
-      "companyName": "2People IT",
-      "description": "description"
+      "onSiteRemote": "on-site",
+      "companyName": "4People IT",
+      "description": "Highly motivated IT Project Manager with 6 years professional education and more than 2re."
     }
   ]
 }
