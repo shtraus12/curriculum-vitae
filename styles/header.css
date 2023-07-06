@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .person {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.header .person img {
+  width: 6rem;
+
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(26, 9, 9, 0.4);
+}
+
+.header .person .name {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 700;
+  font-size: var(--h1-font-size);
+  color: var(--black);
+}
+
+.header .person .position {
+  font-family: 'Hind';
+  font-weight: 300;
+  font-size: var(--h2-font-size);
+  color: var(--grey);
+}
+
+.header .contactInformation {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Hind';
+  font-weight: 300;
+  font-size: var(--normal-font-size);
+  color: var(--grey);
+  max-width: 30vw;
+  gap: 0.5rem;
+  line-height: var(--normal-line-height);
+}
