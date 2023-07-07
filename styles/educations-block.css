@@ -1,21 +1,21 @@
-.career-block {
+.educations-block {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.career-block .block-header {
+.educations-block .block-header {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: var(--h2-font-size);
   font-weight: 700;
 }
 
-.career-block .work-experience {
+.educations-block .education-block {
   width: 100%;
   display: inline-flex;
 }
 
-.work-experience .dates-duration {
+.education-block .dates {
   font-family: 'Hind';
   font-size: var(--samller-font-size);
   font-weight: 300;
@@ -24,7 +24,7 @@
   width: var(--ratio-left);
 }
 
-.work-experience .rest {
+.education-block .rest {
   font-family: 'Hind';
   font-size: var(--normal-font-size);
   font-weight: 300;
@@ -36,30 +36,12 @@
   width: var(--ratio-right);
 }
 
-.work-experience .position {
+.education-block .school-name {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: var(--normal-font-size);
   font-weight: 500;
   color: var(--black);
 }
 
-.work-experience .on-site-remote-company-name {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.4rem;
-}
-
-.work-experience .on-site-remote {
-  line-height: 1.6rem;
-}
-
-.work-experience .company-name {
-  line-height: 1.6rem;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: var(--normal-font-size);
-  font-weight: 500;
-  color: var(--black);
-}
-
-.work-experience .description {
+.education-block .description {
 }
