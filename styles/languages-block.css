@@ -1,0 +1,37 @@
+.languages-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.languages-block .block-header {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--h2-font-size);
+  font-weight: 700;
+}
+
+.languages-block .block-body {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+}
+
+.languages-block .language-block {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 20rem;
+}
+
+.language-block .language-name {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+}
+
+.language-block .language-level {
+  font-family: 'Hind';
+  font-size: var(--normal-font-size);
+  font-weight: 300;
+  color: var(--grey);
+}

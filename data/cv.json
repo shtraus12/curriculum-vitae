@@ -12,19 +12,49 @@
   "career": [
     {
       "dates": "May 2021 — Present",
-      "duration": "2 years",
-      "position": "Project Manager",
+      "duration": "(2 years 3 months)",
+      "position": "IT Project Manager, Analyst",
       "onSiteRemote": "remote",
       "companyName": "2People IT",
       "description": "Highly motivated IT Project Manager with 6 years professional education and more than 2 years of experience in successfully delivering EdTech, VoIP, FinTech, Medical and Sport projects, managing fully remote teams, publishing mobile apps to stores and more."
     },
     {
-      "dates": "May 2021 — May 2021",
-      "duration": "2 years",
-      "position": "Project Manager",
+      "dates": "Jul 2020 — Aug 2020",
+      "duration": "(1 month)",
+      "position": "Supply Chain Management Analyst (internship)",
       "onSiteRemote": "on-site",
-      "companyName": "4People IT",
-      "description": "Highly motivated IT Project Manager with 6 years professional education and more than 2re."
+      "companyName": "NOVARDIS Consulting",
+      "description": "NOVARDIS is one of the leading SAP integrator company in Russia. During this internship I was taught SAP products lineup, spheres and processes can be optimized by implementing SAP products. Team of interns I was part of discovered SAP systems integration workflow. Few presentations on different SAP solutions were done during this internship."
+    },
+    {
+      "dates": "Apr 2019 — Jun 2019",
+      "duration": "(2 months)",
+      "position": "Education Manager (internship)",
+      "onSiteRemote": "on-site",
+      "companyName": "Digital Banana School",
+      "description": "Digital Banana is a small size programming and designing education studio. At that time they had unexpected demand on their service so my main purpose was to help them to deal with it."
+    }
+  ],
+  "educations": [
+    {
+      "dates": "2020 — 2022",
+      "schoolName": "Saint Petersburg State Electrotechnical University",
+      "description": "Master's degree in Project and Product Management"
+    },
+    {
+      "dates": "2016 — 2020",
+      "schoolName": "Saint Petersburg State Electrotechnical University",
+      "description": "Bachelor’s degree in Information Systems and Technologies"
+    }
+  ],
+  "languages": [
+    {
+      "languageName": "English",
+      "level": "Professional working proficiency"
+    },
+    {
+      "languageName": "Russian",
+      "level": "Native or bilingual proficiency"
     }
   ]
 }
