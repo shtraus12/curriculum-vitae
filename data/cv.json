@@ -35,6 +35,20 @@
       "description": "<strong>Outline</strong><br>Digital Banana is a small size programming and designing education studio. At that time they had unexpected demand on their service so my main purpose was to help them to deal with it.<br><br><strong>Key responsibilities</strong><br>— Customers and partners relations<br>— Preparing promotional content (videos, pictures)<br>— Helping with logistics and equipment"
     }
   ],
+  "projectsHighlights": [
+    {
+      "title": "NDA: Ultimate Cloud PBX SaaS solution for carrier services provider",
+      "dates": "Jul 2022 — Jun 2023",
+      "duration": "(12 months)",
+      "description": "<strong>Project Description</strong><br>This project was to develop a cloud PBX for a large telecommunications service provider from scratch to production release. This software is distributed as a service for end users and consists of three user applications: a client web application for managing their PBX node, an admin web application for client management, and a cross-platform (Android and iOS) softphone mobile app.<br><br><strong>Activities and responsibilities</strong><br>Development was based on the SCRUM , with 2-3 week sprints and daily stand-ups held by me. All 14 team members worked remotely, and communications were based on Discord and Telegram. I planned each phase of the project in detail, including possible risks and actions to prevent them. Each phase ended with a demo presentation for the customer. I used Postman and SIP softphones to check out results and dig into bugs with the team. Developed mobile apps were listed in stores set up by me in App Store Connect and Play Store Console.<br>The only input provided was a 2-page document with key req-s, so my main objective was to design all product features. I used to work closely with the customer to collect their desires and to ensure that my product decisions based on deep market research met their expectations. The main artifacts of my activity as an Analyst on this project are the SRS and user manuals. Key tools used are Figma for prototyping, Wiki-based service for requirements, and Google suite (Drive, Sheets, and Docs) for manuals and some other docs."
+    },
+    {
+      "title": "NDA: A smart app for a lineup of branded smart blood pressure monitors",
+      "dates": "Apr 2022 — Sep 2022",
+      "duration": "(4 months)",
+      "description": "<strong>Project Description</strong><br>Cross-platform (Android and iOS) mobile app. The companion app for branded smart health devices (BPM, heart rate monitors, thermometers, etc.) complemented with the web admin panel for managing devices, app content and users, and a server-side with the corresponding functionality.<br><br><strong>Activities and responsibilities</strong><br>As a Project Manager I developed detailed plans for the project, worked closely with the customer, held demos, and managed risks. Both platform apps were listed in the store accounts set up by me (App Store Connect and Google Play Console). Integration with Google Fit required additional Google Cloud verification, which was successfully completed. To achieve the desired user experience, I interacted with the device supplier (OEM) and decided in each case whether it was easier to update the unit software or implement some workaround in the app.<br>As an Analyst I carried out market research and collected customer requirements so I could develop SRS for the product."
+    }
+  ],
   "educations": [
     {
       "dates": "2020 — 2022",

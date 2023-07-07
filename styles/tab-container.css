@@ -1,0 +1,30 @@
+.tab-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.tab-container .tab-navigator {
+  display: flex;
+  gap: 2rem;
+
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--h2-font-size);
+  font-weight: 700;
+}
+
+.tab-navigator .tab-active {
+}
+
+.tab-navigator .tab {
+  color: var(--lighter-grey);
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.tab-navigator .tab:hover {
+  color: var(--black);
+}
+
+.tab-container .tab-content {
+}

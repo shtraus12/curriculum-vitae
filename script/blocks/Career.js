@@ -4,7 +4,7 @@ export class Career {
   constructor(careerTrack) {
     const career = new DivObj('career-block')
 
-    career.appendChild(new DivObj('block-header', 'Career summary'))
+    // career.appendChild(new DivObj('block-header', 'Career summary'))
 
     for (const experience of careerTrack) {
 

@@ -4,7 +4,7 @@ export class TextBlock {
   constructor(blockHeader, blockText) {
     const textBlock = new DivObj('text-block')
 
-    textBlock.appendChild(new DivObj('block-header', blockHeader))
+    // textBlock.appendChild(new DivObj('block-header', blockHeader))
 
     textBlock.appendChild(new DivObj('block-body', blockText))
 

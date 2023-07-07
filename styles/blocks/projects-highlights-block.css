@@ -1,0 +1,47 @@
+.projects-highlights-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.projects-highlights-block .block-header {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--h2-font-size);
+  font-weight: 700;
+}
+
+.projects-highlights-block .project {
+  width: 100%;
+  display: inline-flex;
+}
+
+.projects-highlights-block .project-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: var(--normal-font-size);
+  font-weight: 500;
+  color: var(--black);
+}
+
+.projects-highlights-block .dates-duration {
+  font-family: 'Hind';
+  font-size: var(--samller-font-size);
+  font-weight: 300;
+  color: var(--grey);
+
+  width: var(--ratio-left);
+}
+
+.projects-highlights-block .rest {
+  font-family: 'Hind';
+  font-size: var(--normal-font-size);
+  font-weight: 300;
+  color: var(--grey);
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: var(--ratio-right);
+}
+
+.projects-highlights-block .description {
+}

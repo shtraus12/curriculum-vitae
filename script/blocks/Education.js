@@ -4,7 +4,7 @@ export class Education {
   constructor(educations) {
     const educationsBlock = new DivObj('educations-block')
 
-    educationsBlock.appendChild(new DivObj('block-header', 'Education'))
+    // educationsBlock.appendChild(new DivObj('block-header', 'Education'))
 
     for (const education of educations) {
 
