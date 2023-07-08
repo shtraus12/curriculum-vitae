@@ -18,6 +18,7 @@ export class TabContainer {
     const tabNavigator = new DivObj('tab-navigator')
 
     tabsList.forEach((tabFromList, index) => {
+
       const tab = {
         title: tabFromList.title,
         titleDiv: new DivObj((index === 0) ? 'tab-active' : 'tab', tabFromList.title),

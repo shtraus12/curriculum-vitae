@@ -17,14 +17,24 @@
 }
 
 .tab-navigator .tab {
-  color: var(--lighter-grey);
   cursor: pointer;
-  transition: all 0.5s ease;
+  transition: all 1s 0s;
+  color: var(--lighter-grey);
 }
 
 .tab-navigator .tab:hover {
   color: var(--black);
 }
 
-.tab-container .tab-content {
+.tab-container .tab-content * {
+  animation: animate-fade 0.5s;
+}
+
+@keyframes animate-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
