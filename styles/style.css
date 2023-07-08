@@ -44,6 +44,8 @@
   --h4-font-weight: 400;
   --h4-line-height: 1.3vw;
 
+  /* Hind-headline */
+
   /* IBM-normal */
   --IBM-normal-font-family: 'IBM Plex Sans';
   --IBM-normal-font-size: 1.1vw;
@@ -64,12 +66,6 @@
   --hind-subnormal-font-style: normal;
   --hind-subnormal-font-weight: 300;
   --hind-subnormal-line-height: 1.5vw;
-
-  /* --smaller-font-size: 0.8rem;
-  --normal-font-size: 1rem;
-  --normal-line-height: 1.6rem;
-  --h1-font-size: 2rem;
-  --h2-font-size: 1.6rem; */
 
   /* Proportions */
   --ratio-left: 20vw;

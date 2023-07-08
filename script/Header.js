@@ -7,7 +7,7 @@ export class Header {
 
     const person = new DivObj('person')
 
-    const namePosition = new DivObj()
+    const namePosition = new DivObj('name-position')
 
     namePosition.appendChild(new DivObj('name', fullName))
 
