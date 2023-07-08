@@ -1,20 +1,28 @@
 .text-block {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2vw;
 }
 
 .text-block .block-header {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: var(--h2-font-family);
   font-size: var(--h2-font-size);
-  font-weight: 700;
+  font-style: var(--h2-font-style);
+  font-weight: var(--h2-font-weight);
+  line-height: var(--h2-line-height);
 }
 
 .text-block .block-body {
-  font-family: 'Hind';
-  font-size: var(--normal-font-size);
-  font-weight: 300;
-  color: var(--grey);
+  font-family: var(--hind-normal-font-family);
+  font-size: var(--hind-normal-font-size);
+  font-style: var(--hind-normal-font-style);
+  font-weight: var(--hind-normal-font-weight);
+  line-height: var(--hind-normal-line-height);
+
+  text-align: justify;
+  text-justify: distribute;
+
+  color: var(--grey-300);
 }
 
 .text-block .block-body p {

@@ -5,12 +5,14 @@
 }
 
 .tab-container .tab-navigator {
+  font-family: var(--h2-font-family);
+  font-size: var(--h2-font-size);
+  font-style: var(--h2-font-style);
+  font-weight: var(--h2-font-weight);
+  line-height: var(--h2-line-height);
+
   display: flex;
   gap: 2rem;
-
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: var(--h2-font-size);
-  font-weight: 700;
 }
 
 .tab-navigator .tab-active {
@@ -19,7 +21,7 @@
 .tab-navigator .tab {
   cursor: pointer;
   transition: all 1s 0s;
-  color: var(--lighter-grey);
+  color: var(--grey-200);
 }
 
 .tab-navigator .tab:hover {
