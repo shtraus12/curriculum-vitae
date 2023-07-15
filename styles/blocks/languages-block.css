@@ -1,7 +1,7 @@
 .languages-block {
   display: flex;
   flex-direction: column;
-  gap: 1.5vw;
+  gap: 1rem;
 }
 
 .languages-block .block-header {
@@ -13,18 +13,19 @@
 }
 
 .languages-block .block-body {
-  width: 100%;
   display: flex;
-  gap: 3vw;
+  flex-wrap: wrap;
+
+  gap: 1rem;
 }
 
 .languages-block .language-block {
   display: flex;
   flex-direction: column;
 
-  gap: 0.5vw;
+  min-width: 13rem;
 
-  max-width: 20vw;
+  gap: 0.5rem;
 }
 
 .language-block .language-name {
@@ -43,4 +44,10 @@
   line-height: var(--hind-normal-line-height);
 
   color: var(--grey-300);
+}
+
+@media only screen and (min-width: 992px) {
+  .languages-block .block-body {
+    gap: 3rem;
+  }
 }
