@@ -1,7 +1,7 @@
 .tab-container {
   display: flex;
   flex-direction: column;
-  gap: 2vw;
+  gap: 1rem;
 }
 
 .tab-container .tab-navigator {
@@ -12,16 +12,31 @@
   line-height: var(--h2-line-height);
 
   display: flex;
-  gap: 2vw;
+  gap: 1rem;
+
+  /* overflow-y: hidden; */
+  overflow-x: scroll;
+
+  scroll-behavior: smooth;
+}
+
+.tab-container .tab-navigator::-webkit-scrollbar {
+  display: none;
 }
 
 .tab-navigator .tab-active {
+  white-space: nowrap;
 }
 
 .tab-navigator .tab {
   cursor: pointer;
   transition: all 1s 0s;
   color: var(--grey-200);
+
+  width: max-content;
+  height: max-content;
+
+  white-space: nowrap;
 }
 
 .tab-navigator .tab:hover {
