@@ -12,20 +12,15 @@ export class Career {
 
       const general = new DivObj('general')
 
-      const positionCompanyName = new DivObj('position-company-name')
-
-      positionCompanyName.appendChild(new DivObj('position', experience.position))
+      const positionDates = new DivObj('position-dates')
+      positionDates.appendChild(new DivObj('position', experience.position))
+      positionDates.appendChild(new DivObj('dates-duration', `${experience.dates} <br> ${experience.duration}`))
+      general.appendChild(positionDates)
 
       const onSiteRemoteCompanyName = new DivObj('on-site-remote-company-name')
-
       onSiteRemoteCompanyName.appendChild(new DivObj('on-site-remote', `${experience.onSiteRemote} at`))
-
       onSiteRemoteCompanyName.appendChild(new DivObj('company-name', experience.companyName))
-
-      positionCompanyName.appendChild(onSiteRemoteCompanyName)
-
-      general.appendChild(positionCompanyName)
-      general.appendChild(new DivObj('dates-duration', `${experience.dates} <br> ${experience.duration}`))
+      general.appendChild(onSiteRemoteCompanyName)
 
       rest.appendChild(general)
       rest.appendChild(new DivObj('description', experience.description))
