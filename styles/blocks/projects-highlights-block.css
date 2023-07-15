@@ -1,7 +1,7 @@
 .projects-highlights-block {
   display: flex;
   flex-direction: column;
-  gap: 2vw;
+  gap: 1.5rem;
 }
 
 .projects-highlights-block .block-header {
@@ -14,17 +14,26 @@
 
 .projects-highlights-block .project {
   width: 100%;
-  display: inline-flex;
+  display: flex;
+  gap: 1rem;
+}
+
+.projects-highlights-block .title-dates {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .projects-highlights-block .project-title {
-  font-family: var(--h3-font-family);
-  font-size: var(--h3-font-size);
-  font-style: var(--h3-font-style);
-  font-weight: var(--h3-font-weight);
-  line-height: var(--h3-line-height);
+  font-family: var(--h2-font-family);
+  font-size: var(--h2-font-size);
+  font-style: var(--h2-font-style);
+  font-weight: var(--h2-font-weight);
+  line-height: var(--h2-line-height);
 
   color: var(--black);
+
+  max-width: 20rem;
 }
 
 .projects-highlights-block .dates-duration {
@@ -36,7 +45,7 @@
 
   color: var(--grey-300);
 
-  width: var(--ratio-left);
+  min-width: 7rem;
 }
 
 .projects-highlights-block .rest {
@@ -50,11 +59,15 @@
 
   display: flex;
   flex-direction: column;
-  gap: 0.6vw;
+  gap: 1rem;
   width: var(--ratio-right);
 }
 
 .projects-highlights-block .description {
   text-align: justify;
   text-justify: distribute;
+}
+
+.projects-highlights-block .marker {
+  padding-top: 0.5rem;
 }
