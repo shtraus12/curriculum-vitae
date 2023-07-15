@@ -18,54 +18,54 @@
   /* Typography */
   /* Headline 1 */
   --h1-font-family: 'IBM Plex Sans', sans-serif;
-  --h1-font-size: 2.4vw;
+  --h1-font-size: 1.8rem;
   --h1-font-style: normal;
   --h1-font-weight: 700;
-  --h1-line-height: 2.4vw;
+  --h1-line-height: 1.8rem;
 
   /* Headline 2 */
   --h2-font-family: 'IBM Plex Sans', sans-serif;
-  --h2-font-size: 1.3vw;
+  --h2-font-size: 1rem;
   --h2-font-style: normal;
   --h2-font-weight: 700;
-  --h2-line-height: 1.3vw;
+  --h2-line-height: 1.3rem;
 
   /* Headline 3 */
   --h3-font-family: 'IBM Plex Sans', sans-serif;
-  --h3-font-size: 1.1vw;
+  --h3-font-size: 0.9rem;
   --h3-font-style: normal;
   --h3-font-weight: 500;
-  --h3-line-height: 1.1vw;
+  --h3-line-height: 0.9rem;
 
   /* Headline 4 */
   --h4-font-family: 'Hind';
-  --h4-font-size: 1.3vw;
+  --h4-font-size: 1.2rem;
   --h4-font-style: normal;
   --h4-font-weight: 400;
-  --h4-line-height: 1.3vw;
+  --h4-line-height: 1.2rem;
 
   /* Hind-headline */
 
   /* IBM-normal */
   --IBM-normal-font-family: 'IBM Plex Sans';
-  --IBM-normal-font-size: 1.1vw;
+  --IBM-normal-font-size: 0.9rem;
   --IBM-normal-font-style: normal;
   --IBM-normal-font-weight: 300;
-  --IBM-normal-line-height: 1.1vw;
+  --IBM-normal-line-height: 0.9rem;
 
   /* Hind-normal */
   --hind-normal-font-family: 'Hind';
-  --hind-normal-font-size: 1.1vw;
+  --hind-normal-font-size: 0.9rem;
   --hind-normal-font-style: normal;
   --hind-normal-font-weight: 400;
-  --hind-normal-line-height: 1.5vw;
+  --hind-normal-line-height: 1.2rem;
 
   /* Hind-subnormal */
   --hind-subnormal-font-family: 'Hind';
-  --hind-subnormal-font-size: 1vw;
+  --hind-subnormal-font-size: 0.8rem;
   --hind-subnormal-font-style: normal;
   --hind-subnormal-font-weight: 300;
-  --hind-subnormal-line-height: 1.5vw;
+  --hind-subnormal-line-height: 1.2rem;
 
   /* Proportions */
   --ratio-left: 20vw;
@@ -73,21 +73,31 @@
 }
 
 body {
-  margin: 3vw 0 3vw 0;
+  margin: 2rem 0 2rem 0;
   display: flex;
   justify-content: center;
   width: 100vw;
+  box-sizing: border-box;
+
+  scroll-behavior: smooth;
 }
 
 .container {
-  width: 55vw;
+  width: 85%;
   display: flex;
   flex-direction: column;
   gap: 1vw;
+  box-sizing: border-box;
 }
 
 hr {
   border: 1px solid var(--grey-100);
   margin-left: 0;
   margin-right: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 60vw;
+  }
 }

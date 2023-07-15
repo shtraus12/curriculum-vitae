@@ -31,6 +31,13 @@ export class TabContainer {
 
     this.div.appendChild(tabNavigator)
 
+    setTimeout(() => {
+      tabNavigator.scrollLeft += 50
+      setTimeout(() => {
+        tabNavigator.scrollLeft = 0
+      }, 500)
+    }, 500)
+
     //set up current tab and content
 
     this.currentTab = this.tabs[0]
