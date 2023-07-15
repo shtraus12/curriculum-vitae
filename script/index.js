@@ -36,7 +36,8 @@ function tabsCreator(cvData) {
   const tabs = []
 
   if (cvData.profile) {
-    const profileContent = new DivObj('container')
+    const profileContent = document.createElement('div')
+    profileContent.style.cssText = `display: flex; flex-direction: column; gap: 1rem;`
     profileContent.appendChild(new TextBlock('Profile', cvData.profile))
     profileContent.appendChild(document.createElement('hr'))
 

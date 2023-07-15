@@ -58,18 +58,17 @@
   display: flex;
   flex-direction: column;
 
-  gap: 0.5vw;
+  gap: 0.5rem;
 }
 
 @media only screen and (min-width: 992px) {
-  .header {
-  }
-
   .header .person img {
-    height: 10rem;
+    height: 9rem;
   }
 
   .header .contactInformation {
     max-width: 30%;
+
+    gap: 1rem;
   }
 }
