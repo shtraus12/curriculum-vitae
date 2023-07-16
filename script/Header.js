@@ -1,7 +1,7 @@
 import { DivObj } from "./DivObj.js"
 
 export class Header {
-  constructor(avaratPath, fullName = 'Name LastName', position = 'Position', contactInformation = ['Contact']) {
+  constructor(avatarPath, fullName = 'Name LastName', position = 'Position', contactInformationList) {
 
     const header = new DivObj('header')
 
@@ -15,14 +15,24 @@ export class Header {
 
     person.appendChild(Object.assign(document.createElement('img'),
       {
-        src: 'assets/avatar.JPG'
+        src: avatarPath
       }))
     person.append(namePosition)
 
     const contacts = new DivObj('contactInformation')
 
-    contactInformation.forEach(el => {
-      contacts.appendChild(new DivObj('contact', el))
+    contactInformationList.forEach(contactData => {
+      const contact = new DivObj('contact')
+
+      if (contactData.iconPath) {
+        contact.appendChild(Object.assign(document.createElement('img'), {
+          src: contactData.iconPath
+        }))
+      }
+
+      contact.appendChild(new DivObj('', `${contactData.title}: ${(contactData.bodyLink) ? '<a href="' + contactData.bodyLink + '">' + contactData.body + '</a>' : contactData.body}`))
+
+      contacts.appendChild(contact)
     })
 
     header.appendChild(person)
