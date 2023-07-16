@@ -1,0 +1,73 @@
+.projects-highlights-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.projects-highlights-block .block-header {
+  font-family: var(--h2-font-family);
+  font-size: var(--h2-font-size);
+  font-style: var(--h2-font-style);
+  font-weight: var(--h2-font-weight);
+  line-height: var(--h2-line-height);
+}
+
+.projects-highlights-block .project {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+
+.projects-highlights-block .title-dates {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.projects-highlights-block .project-title {
+  font-family: var(--h2-font-family);
+  font-size: var(--h2-font-size);
+  font-style: var(--h2-font-style);
+  font-weight: var(--h2-font-weight);
+  line-height: var(--h2-line-height);
+
+  color: var(--black);
+
+  max-width: 20rem;
+}
+
+.projects-highlights-block .dates-duration {
+  font-family: var(--hind-subnormal-font-family);
+  font-size: var(--hind-subnormal-font-size);
+  font-style: var(--hind-subnormal-font-style);
+  font-weight: var(--hind-subnormal-font-weight);
+  line-height: var(--hind-subnormal-line-height);
+
+  color: var(--grey-300);
+
+  min-width: 7rem;
+}
+
+.projects-highlights-block .rest {
+  font-family: var(--hind-normal-font-family);
+  font-size: var(--hind-normal-font-size);
+  font-style: var(--hind-normal-font-style);
+  font-weight: var(--hind-normal-font-weight);
+  line-height: var(--hind-normal-line-height);
+
+  color: var(--grey-300);
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: var(--ratio-right);
+}
+
+.projects-highlights-block .description {
+  text-align: justify;
+  text-justify: distribute;
+}
+
+.projects-highlights-block .marker {
+  padding-top: 0.5rem;
+}
